@@ -1,0 +1,26 @@
+# 飞书记录缓存：含真实日记正文，绝不入库
+_feishu_records_tmp.json
+
+# 审核后 plan：含真实日记正文，绝不入库
+restore_plan_*.json
+_restore_plan_draft.json
+_plan_*.json
+
+# 核对报告：含本机路径与摘要内容
+*_飞书正文备份核对报告*.md
+_latest_report_path.txt
+
+# 凭据与认证状态：含 appId / openId / scope
+feishu_auth_status.txt
+write_to_feishu.py
+*_qr.png
+*.png
+
+# 一次性辅助脚本与本地备份
+_*.py
+*.bak
+*.bak2
+
+# Python 运行缓存
+__pycache__/
+*.py[cod]
